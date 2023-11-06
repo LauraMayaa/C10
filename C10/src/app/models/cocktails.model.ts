@@ -3,4 +3,10 @@ export class Cocktails {
     price: number;
     img: string;
 
+    constructor() {
+        this.name = "";
+        this.price = 0;
+        this.img = "";
+    }
+
 }

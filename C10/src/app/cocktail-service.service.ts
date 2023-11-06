@@ -25,4 +25,8 @@ export class CocktailServiceService {
   ]
 
   constructor() { }
+
+  public getCocktails(): Cocktails[] {
+    return this.cocktails
+  }
 }
